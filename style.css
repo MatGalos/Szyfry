@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}
+
+#def{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    padding-left: 20px;
+    width: 500px;
+    height: 700px;
+    background-color: aquamarine;
+}
+
+.button:hover{
+    background-color: brown;
+    width: 550px;
+    height: 750px;
+}
+
+footer{
+    text-align: center;
+}

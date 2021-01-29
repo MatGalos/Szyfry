@@ -1,2 +1,4 @@
 # Szyfry
-Projekt na zaliczenie z bezpieczeństwa systemów informatycznych
+
+Projekt na zaliczenie z bezpieczeństwa systemów informatycznych.
+Celem tego projektu jest stworzenie
