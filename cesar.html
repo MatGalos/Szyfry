@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Szyfr Cezara</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header id='transfer'>
+        <h2 class="title">SZYFR CEZARA</h2>
+    </header>
+	<div id="def">
+		<table class="noborder">
+	<tr>
+		<td><label for="msg">Przekaż wiadomość</label></td>
+		<td><input type="text" class="encrypt" shift="msg"></td>
+	</tr>
+
+	<tr>
+		<td><label for="shift">Wprowadź liczbę przesunięć</label></td>
+		<td><input type="number" class="encrypt" step="1" max="36" min="-36" id="shift" value="2"></td>
+	</tr>
+
+	<tr>
+		<td><label for="cipher">Zaszyfrowana wiadomość</label></td>
+		<td><input type="text" id="cipher" readonly></td>
+	</tr>
+</table>
+</div>
+    <footer><p>Projekt wykonany przez Mateusza Galosa numer indeksu 12569</p></footer>
+    <script src="cesar.js"></script>
 </body>
 </html>

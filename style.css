@@ -2,6 +2,7 @@ body{
     background-color: black;
     color: white;
     font-size: x-large;
+    
 }
 
 #def{
@@ -25,4 +26,17 @@ body{
 
 footer{
     text-align: center;
+}
+
+header{
+    background-color: aqua;
+    margin: auto;
+    padding-bottom: 20 px;
+    width: 80%;
+    height: 100px;
+}
+
+.title{
+    text-align: center;
+    font-size: 60px;
 }

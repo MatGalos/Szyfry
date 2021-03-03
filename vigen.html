@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Szyfr Vigena</title>
+    <title>Szyfr Vigenère’a</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header id='transfer'>
+        <h2 class="title">SZYFR VIGENèRE’A</h2>
+    </header>
+    <div id="def">
+    <table class="noborder">
+        <tbody>
+            <tr>
+                <td><label for="text">Wprowadź tekst do zaszyfrowania:</label></td>
+                <td><textarea id="text" cols="50" rows="10" style="width:40em; height:15em">Przykladowy Tekst</textarea></td>
+            </tr>
+            <tr>
+                <td><label for="key">Wprowadź klucz szyfrowania:</label></td>
+                <td><input type="text" value="przykladowy klucz" id="key" style="width:10em" /></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button onclick="app.doCrypt(false);">Zaszyfruj wiadomość</button>
+                    <button onclick="app.doCrypt(true);">Odszyfruj wiadomość</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+    <footer><p>Projekt wykonany przez Mateusza Galosa numer indeksu 12569</p></footer>
+<script src="vigen.js"></script>
 </body>
 </html>
